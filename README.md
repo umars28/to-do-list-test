@@ -18,3 +18,8 @@
 * use command `php artisan key:generate` to Generate an app encryption key
 * use command `php artisan migrate` to Migrate the database
 * use command `php artisan db:seed` to init dummy data
+
+
+### Run This Command if jwt token secret not working yet ###
+* use command `php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"`
+* use command `php artisan jwt:secret` to Generate secret jwt token on env
